@@ -21,8 +21,8 @@ This topic provides general limitations and guidelines for Azure SQL Database. F
 
 ## Connectivity
 
- - Windows Authentication is not supported. See [Managing Databases and Logins in Azure SQL Database](sql-database-manage-logins.md). 
-
+ - Windows Authentication is not supported. See [Managing Databases and Logins in Azure SQL Database](sql-database-manage-logins.md).  However Azure Active Directory Authentication is supported, with certain limitiations. See https://azure.microsoft.com/en-gb/documentation/articles/sql-database-aad-authentication
+ 
  - Microsoft Azure SQL Database supports tabular data stream (TDS) protocol client version 7.3 or later. 
 
  - Only TCP/IP connections are allowed.
